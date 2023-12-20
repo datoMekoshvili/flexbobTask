@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+}
+header {
+  width: 100vw;
+  height: 324px;
+  display: block;
+  background-image: url("../assets/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png");
+}
+
+.navigation {
+  margin-top: 30px;
+  margin-left: 139px;
+  width: 1088px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+header nav {
+  display: contents;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: left;
+  font: normal normal bold 14px/19px Poppins;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  text-decoration: none;
+}
+
+header li {
+  list-style: none;
+  display: contents;
+}
+.navA {
+  text-align: center;
+  font: normal normal 600 12px/16px Poppins;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  opacity: 1;
+  text-decoration: none;
+  margin-right: 51px;
+}
+
+.header2 {
+  margin-left: 139px;
+  margin-top: 100px;
+}
+.header2 h1 {
+  text-align: left;
+  font: normal normal 800 42px/56px Poppins;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.header2 p {
+  text-align: left;
+  font: normal normal medium 14px/19px Poppins;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  word-spacing: 10px;
+  margin: 0;
+}
+
+.main1 {
+  margin-left: auto;
+  margin-top: 90px;
+}
+
+.title {
+  margin-left: 5rem;
+  width: 26%;
+}
+
+.title p {
+  text-align: left;
+  font: normal normal bold 14px/19px Poppins;
+  letter-spacing: 0px;
+  color: rgba(88, 99, 248, 1);
+  opacity: 1;
+  margin: 0 0 2px 0;
+}
+
+.title h1 {
+  text-align: left;
+  font: normal normal 800 42px/56px Poppins;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+
+  margin: 0 0 40px 0;
+}
+
+.boxsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxcontainer {
+  display: flex;
+  background: rgba(248, 248, 248, 1) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 536px;
+  height: 190px;
+  margin: 8px;
+}
+.boxcontainer img {
+  width: 168px;
+  height: 190px;
+}
+
+.boxcontainer h3 {
+  width: 23px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 14px/19px Poppins;
+  letter-spacing: 0px;
+  color: rgba(88, 99, 248, 1);
+  text-transform: uppercase;
+}
+
+.boxcontainer h2 {
+  width: 122px;
+  height: 24px;
+  text-align: left;
+  font: normal normal 600 18px/24px Poppins;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.boxcontainer p {
+  width: 260px;
+  height: 62px;
+  text-align: left;
+  font: normal normal medium 14px/19px Poppins;
+  letter-spacing: 0px;
+  color: rgba(177, 177, 177, 1);
+}
+
+.boxcontainer button {
+  width: 60px;
+  height: 190px;
+  background: rgba(88, 99, 248, 1) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 0;
+  border: 0;
+  margin-left: 20px;
+}
+
+.boxcontainer button img {
+  width: 20px;
+}
+
+.textcontainer {
+  margin-left: 15px;
+} 
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white; 
+  height: 395px;
+}
+
+.footer-section {
+  width: calc(100% / 4); 
+  margin-left: 139px;
+}
+
+.social-icons a {
+  margin-right: 10px; 
+} 
+
+
+
+
+
+.formsection {
+  height: 190px;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 71px;
+}
+
+.formsection form {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.formsection label {
+  text-align: left;
+  font: normal normal medium 13px/17px Poppins;
+  letter-spacing: 0px;
+  color: #5863f8;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+
+.formsection input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #ebebeb;
+  opacity: 1;
+  width: 260px;
+  height: 54px;
+}
+
+#submitbutton {
+  background: #5863f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 260px;
+  height: 60px;
+  font: normal normal 600 13px/17px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 18px;
+}
+
+.cheking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
